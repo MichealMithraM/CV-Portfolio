@@ -52,7 +52,9 @@
 </head>
 
 <body class="bg-color12 bg-blend-luminosity dark-layer2 opc9 bg-att-fixed scheme1 dark">
+    
     <main>
+    
         <div class="bg-anime position-fixed">
             <canvas class="bg-anime-canvas" id="bg-anime"></canvas>
             <script type="x-shader/x-vertex" id="wrapVertexShader">
@@ -100,24 +102,24 @@
                             <a class="res-menu-close" href="javascript:void(0);" title=""><i
                                     class="fal fa-times"></i></a>
                             <ul class="css">
-                                <li><a href="index.html" title="">Home</a></li>
-                                <li class="menu-item-has-children"><a href="#aboutme" title="">About Me<i
+                                <li><a href="index.html" >Home</a></li>
+                                <li class="menu-item-has-children"><a href="#aboutme" >About Me<i
                                             class="far fa-angle-down"></i></a>
                                 </li>
-                                <li class="menu-item-has-children"><a href="#Intenships" title="">Intenships<i
+                                <li class="menu-item-has-children"><a href="#Intenships" >Intenships<i
                                     class="far fa-angle-down"></i></a>
                         </li>
-                        <li class="menu-item-has-children"><a href="#skill" title="">Skills<i
+                        <li class="menu-item-has-children"><a href="#skill" >Skills<i
                             class="far fa-angle-down"></i></a>
                         </li>
-                                <li class="menu-item-has-children"><a href="#Knowledge" title="">Knowledge<i
+                                <li class="menu-item-has-children"><a href="#Knowledge" >Knowledge<i
                                     class="far fa-angle-down"></i></a>
                                     <ul>
-                                        <li><a href="#Education" title="">Education</a></li>
-                                        <li><a href="#Experience" title="">Experience</a></li>
+                                        <li><a href="#Education" >Education</a></li>
+                                        <li><a href="#Experience" >Experience</a></li>
                                     </ul>
                         </li>
-                                <li class="menu-item-has-children"><a href="#portfolio" title="">Portfolio<i
+                                <li class="menu-item-has-children"><a href="#portfolio" >Portfolio<i
                                             class="far fa-angle-down"></i></a>
                                 </li>
                             </ul>
@@ -205,13 +207,13 @@
                         </div><!-- Resume Sidebar -->
                         <div class="resume-content d-flex flex-column">
                             <div class="theiaStickySidebar">
-                                <section>
+                                <section id="home">
                                     <div class="position-relative w-100">
                                         <div
                                             class="intro-wrapper d-flex flex-column align-items-start position-relative w-100">
                                             <div
                                                 class="intro-box d-flex flex-column align-items-start position-relative w-100">
-                                                <span id="home" class="sec-sub rounded-pill text-center ">Introduction</span>
+                                                <span  class="sec-sub rounded-pill text-center ">Introduction</span>
                                                 <h2 class="mb-0 fw-normal sz-55 wow fadeInUp" data-wow-duration=".5s"
                                                     data-wow-delay=".2s">Hey! I am <span>Micheal Mithra M</span>,
                                                     Junior Developer,
@@ -266,7 +268,7 @@
                                         </div><!-- Intro Wrapper -->
                                     </div>
                                 </section>
-                                <section >
+                                <section id="aboutme">
                                     <div class="position-relative pt-140 w-100">
                                         <div class="row">
                                             <div class="col-md-12 col-sm-12 col-lg-5">
@@ -280,7 +282,7 @@
                                                     
                                                 </div><!-- Sec Title Wrap -->
                                             </div>
-                                            <div id="aboutme"  class="col-md-12 col-sm-12 col-lg-7">
+                                            <div   class="col-md-12 col-sm-12 col-lg-7">
                                                 <div class="about-cap d-flex flex-column position-relative w-100" >
                                                     <br>
                                                     <p class="mb-0">Hi, I'm Micheal Mithra M, 
@@ -296,7 +298,7 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section>
+                                <section id="Intenships">
                                     <div class="position-relative pt-110 w-100">
                                         <div class="row">
                                             <div class="col-md-12 col-sm-12 col-lg-5">
@@ -310,7 +312,7 @@
                                                     </div><!-- Sec Title -->
                                                 </div><!-- Sec Title Wrap -->
                                             </div>
-                                            <div id="Intenships" class="col-md-12 col-sm-12 col-lg-7">
+                                            <div  class="col-md-12 col-sm-12 col-lg-7">
                                                 <div class="comp-boxes round15 position-relative w-100">
                                                     <div class="row mrg">
                                                         <div class="col-md-6 col-sm-6 col-lg-4">
@@ -348,13 +350,13 @@
                                         </div>
                                     </div>
                                 </section>
-                                <section>
+                                <section id="skills">
                                     <div class="position-relative pt-120 w-100">
                                         <div
                                             class="sec-title-wrap mb-50 d-flex flex-column align-items-center position-relative w-100 text-center">
                                             <div class="sec-title d-flex flex-column align-items-center w-100 wow fadeInUp"
                                                 data-wow-duration=".5s" data-wow-delay=".2s">
-                                                <span id="skills" class="sec-sub rounded-pill text-center">My Skills</span>
+                                                <span  class="sec-sub rounded-pill text-center">My Skills</span>
                                                 <h2 class="mb-0 sz-40">My Advantages</h2>
                                             </div><!-- Sec Title -->
                                         </div><!-- Sec Title Wrap -->
@@ -494,7 +496,7 @@
                                         </div><!-- Hire Head Line Box -->
                                     </div>
                                 </section>
-                                <section>
+                                <section id="Education">
                                     <div class="position-relative pt-110 w-100">
                                         <div class="edu-exp-wrap position-relative w-100">
                                             <div class="row mrg40">
@@ -505,7 +507,7 @@
                                                             class="sec-title d-flex flex-column align-items-start w-100">
                                                             <span id="knowledge"
                                                                 class="sec-sub rounded-pill text-center">Knowledge</span>
-                                                            <h2 id="Education" class="mb-0 sz-40">My Education</h2>
+                                                            <h2  class="mb-0 sz-40">My Education</h2>
                                                         </div><!-- Sec Title -->
                                                     </div><!-- Sec Title Wrap -->
                                                     <div class="edu-boxes d-flex flex-column position-relative w-100">
@@ -534,13 +536,13 @@
                                                         </div><!-- Education Box -->
                                                     </div><!-- Education Boxes -->
                                                 </div>
-                                                <div class="col-md-12 col-sm-12 col-lg-6">
+                                                <div id="Experience" class="col-md-12 col-sm-12 col-lg-6">
                                                     <div
                                                         class="sec-title-wrap mb-50 d-flex flex-column align-items-start position-relative w-100">
                                                         <div
                                                             class="sec-title d-flex flex-column align-items-start w-100">
                                                             <span class="sec-sub rounded-pill text-center">Resume</span>
-                                                            <h2 id="Experience" class="mb-0 sz-40">My Experience</h2>
+                                                            <h2 class="mb-0 sz-40">My Experience</h2>
                                                         </div><!-- Sec Title -->
                                                     </div><!-- Sec Title Wrap -->
                                                     <div class="exp-boxes d-flex flex-column position-relative w-100">
@@ -571,13 +573,13 @@
                                         </div><!-- Education & Experience Wrap -->
                                     </div>
                                 </section>
-                                <section>
+                                <section id="portfolio">
                                     <div class="position-relative pt-110 w-100">
                                         <div
                                             class="sec-title-wrap mb-50 d-flex flex-column align-items-center position-relative w-100 text-center">
                                             <div class="sec-title d-flex flex-column align-items-center w-100 wow fadeInUp"
                                                 data-wow-duration=".5s" data-wow-delay=".2s">
-                                                <span id="portfolio" class="sec-sub rounded-pill text-center">Portfolio</span>
+                                                <span  class="sec-sub rounded-pill text-center">Portfolio</span>
                                                 <h2 class="mb-0 sz-40">My Recent Projects</h2>
                                             </div><!-- Sec Title -->
                                         </div><!-- Sec Title Wrap -->
@@ -691,6 +693,34 @@
                                                                         class="far fa-long-arrow-right"></i></a>
                                                                 <h4 class="mb-0 fw-normal sz-26"><a
                                                                         href="https://michealmithram.github.io/Tic-tac-toe/" title="">Tic Tac Toe
+                                                                        </a></h4>
+                                                                <span>Website</span>
+                                                            </div><!-- Portfolio Info -->
+                                                        </div><!-- Portfolio Box -->
+                                                    </div><!-- Portfolio Item -->
+                                                    <div class="port-item swiper-slide d-block position-relative">
+                                                        <div
+                                                            class="port-box d-flex flex-column align-items-start w-100">
+                                                            <div
+                                                                class="port-img round15 overflow-hidden position-relative w-100">
+                                                                <a href="https://michealmithram.github.io/Iks-project/" title=""><img
+                                                                        class="img-fluid w-100"
+                                                                        src="resources1/port-img5.png"
+                                                                        alt="Portfolio Image" loading="lazy"></a>
+                                                                <div
+                                                                    class="port-cat d-flex align-items-center position-absolute">
+                                                                    <a href="javascript:void(0);" title="">GitHub</a><a
+                                                                        href="javascript:void(0);"
+                                                                        title="">HTML & CSS</a>
+                                                                </div><!-- Portfolio Categories -->
+                                                            </div><!-- Portfolio Image -->
+                                                            <div
+                                                                class="port-info d-flex flex-column align-items-start w-100">
+                                                                <a class="port-read rounded-circle"
+                                                                    href="https://michealmithram.github.io/Iks-project/" title=""><i
+                                                                        class="far fa-long-arrow-right"></i></a>
+                                                                <h4 class="mb-0 fw-normal sz-26"><a
+                                                                        href="https://michealmithram.github.io/Iks-project/" title="">IKS Project
                                                                         </a></h4>
                                                                 <span>Website</span>
                                                             </div><!-- Portfolio Info -->
