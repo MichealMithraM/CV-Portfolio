@@ -20,7 +20,14 @@
     <style>
         
         
-           
+           .stick {
+  top: 0;
+  position: sticky;
+  z-index: 500; /* Ensure it's above other elements */
+  background: black; /* Or any background to avoid transparent overlay */
+  box-shadow: 0 2px 5px rgba(249, 246, 246, 0.311); /* Optional: for subtle shadow effect */
+}
+
          .scheme1 .logo{
         
             color: #f7f1e3;
@@ -173,19 +180,19 @@
             
         </div><!-- Side Panel -->
         <section>
-            <div class="w-100 pt-60 pb-130 position-relative">
+            <div class="w-100 h-100 pt-30 pb-100 position-relative">
                 <div class="container">
                     <div class="resume-wrapper d-flex justify-content-between position-relative w-100">
                         <div class="resume-sidebar d-flex flex-column position-sticky">
                             <div class="theiaStickySidebar">
                                 <div class="resume-info round50 d-flex flex-column position-relative w-100">
                                     <div class="user-img round40 overflow-hidden position-relative w-100"><img
-                                            class="img-fluid w-100" src="resources1/user-img.png"
+                                            class="img-fluid w-100 h-100" src="resources1/user-img.png"
                                             alt="User Image" loading="lazy"></div>
                                     <!-- User Image -->
                                     <div class="user-info d-flex flex-column align-items-start w-100">
                                         <a href="mailto:mmichealmithra@gmail.com" title="">mmichealmithra@gmail.com</a>
-                                        <span>7/198, Indira Nagar,<br> Loorthammal puram,<br> Thoothukudi.1,<br> Tamil Nadu</span>
+                                        <span>Thoothukudi.1,<br> Tamil Nadu</span>
                                         
                                     </div><!-- User Info -->
                                     <div
@@ -218,15 +225,15 @@
                                                 <span  class="sec-sub rounded-pill text-center ">Introduction</span>
                                                 <h2 class="mb-0 fw-normal sz-55 wow fadeInUp" data-wow-duration=".5s"
                                                     data-wow-delay=".2s">Hey! I am <span>Micheal Mithra M</span>,
-                                                    Junior Developer,
-                                                    Fresher & Current Final Year Student</h2>
+                                                    Web Developer,
+                                                    Fresher</h2>
                                                 <p class="mb-0 wow fadeInUp" data-wow-duration=".5s"
                                                     data-wow-delay=".4s">I'm a Web Developer & I'm very passionate and
                                                     dedicated to my work. I have acquired the skills and knowledge necessary to make your project a success.</p>
                                                 <div class="intro-btns d-flex align-items-center w-100 wow fadeInUp"
                                                     data-wow-duration=".5s" data-wow-delay=".6s">
                                                     <a class="theme-btn position-relative overflow-hidden round10"
-                                                        href="Micheal Mithra_Resume.pdf"  title=""><i
+                                                        href="M. Micheal Mithra_Resume .pdf"  title=""><i
                                                             class="fas fa-arrow-alt-to-bottom"></i>Download CV</a>
                                                     
                                                 </div><!-- Intro Btns -->
@@ -288,14 +295,15 @@
                                             <div   class="col-md-12 col-sm-12 col-lg-7">
                                                 <div class="about-cap d-flex flex-column position-relative w-100" >
                                                     <br>
-                                                    <p class="mb-0">Hi, I'm Micheal Mithra M, 
-                                                        I have a knowledge in Web Developer, 
-                                                        eager to bring my creativity and skills to the digital world.
-                                                        With a strong foundation in HTML, CSS, and JavaScript,
-                                                        I'm excited to craft innovative and responsive websites that captivate audiences.</p>
-                                                    <p class="mb-0">To continuously learn and grow as a Web Developer.
-                                                         To collaborate with like-minded professionals on exciting projects.
-                                                        To create digital experiences that make a positive impact.</p >
+                                                   <p class="mb-0">
+    Hi, I'm Micheal Mithra M — a passionate and motivated web developer with a strong foundation in HTML, CSS, JavaScript, and PHP. 
+    I specialize in building interactive and responsive websites, and I’m experienced with the MERN stack (MongoDB, Express.js, React.js, Node.js).
+</p>
+<p class="mb-0">
+    I enjoy turning ideas into real-world applications and continuously strive to improve my skills. 
+    I’m eager to collaborate with like-minded professionals and contribute to projects that make a meaningful digital impact.
+</p>
+
                                                 </div><!-- About Cap -->
                                             </div>
                                         </div>
@@ -383,6 +391,23 @@
                                                     </div><!-- Skill Box -->
                                                 </div>
                                                 <div class="col-md-4 col-sm-6 col-lg-3 wow fadeIn"
+                                                    data-wow-duration=".8s" data-wow-delay=".7s">
+                                                    <div
+                                                        class="skill-box round15 overflow-hidden position-relative text-center w-100">
+                                                        <div class="skill-img overflow-hidden position-relative w-100">
+                                                            <img class="img-fluid w-100"
+                                                                src="resources1/skill-img1.jpg"
+                                                                alt="Skill Image" loading="lazy">
+                                                        </div>
+                                                        <!-- Skill Image -->
+                                                        <div
+                                                            class="skill-info d-flex flex-column align-items-center w-100">
+                                                            <h3 class="mb-0 fw-normal sz-36">80%</h3>
+                                                            <h4 class="mb-0 sz-20">Python</h4>
+                                                        </div><!-- Skill Info -->
+                                                    </div><!-- Skill Box -->
+                                                </div>
+                                                <div class="col-md-4 col-sm-6 col-lg-3 wow fadeIn"
                                                     data-wow-duration=".8s" data-wow-delay=".3s">
                                                     <div
                                                         class="skill-box round15 overflow-hidden position-relative text-center w-100">
@@ -411,7 +436,7 @@
                                                         <!-- Skill Image -->
                                                         <div
                                                             class="skill-info d-flex flex-column align-items-center w-100">
-                                                            <h3 class="mb-0 fw-normal sz-36">99%</h3>
+                                                            <h3 class="mb-0 fw-normal sz-36">100%</h3>
                                                             <h4 class="mb-0 sz-20">HTML</h4>
                                                         </div><!-- Skill Info -->
                                                     </div><!-- Skill Box -->
@@ -428,7 +453,7 @@
                                                         <!-- Skill Image -->
                                                         <div
                                                             class="skill-info d-flex flex-column align-items-center w-100">
-                                                            <h3 class="mb-0 fw-normal sz-36">99%</h3>
+                                                            <h3 class="mb-0 fw-normal sz-36">100%</h3>
                                                             <h4 class="mb-0 sz-20">CSS</h4>
                                                         </div><!-- Skill Info -->
                                                     </div><!-- Skill Box -->
@@ -445,8 +470,26 @@
                                                         <!-- Skill Image -->
                                                         <div
                                                             class="skill-info d-flex flex-column align-items-center w-100">
-                                                            <h3 class="mb-0 fw-normal sz-36">50%</h3>
+                                                            <h3 class="mb-0 fw-normal sz-36">90%</h3>
                                                             <h4 class="mb-0 sz-20">Javascript</h4>
+                                                        </div><!-- Skill Info -->
+                                                    </div><!-- Skill Box -->
+                                                </div>
+                                                
+                                                <div class="col-md-4 col-sm-6 col-lg-3 wow fadeIn"
+                                                    data-wow-duration=".8s" data-wow-delay=".2s">
+                                                    <div
+                                                        class="skill-box round15 overflow-hidden position-relative text-center w-100">
+                                                        <div class="skill-img overflow-hidden position-relative w-100">
+                                                            <img class="img-fluid w-100"
+                                                                src="resources1/php_PNG35.png"
+                                                                alt="Skill Image" loading="lazy">
+                                                        </div>
+                                                        <!-- Skill Image -->
+                                                        <div
+                                                            class="skill-info d-flex flex-column align-items-center w-100">
+                                                            <h3 class="mb-0 fw-normal sz-36">80%</h3>
+                                                            <h4 class="mb-0 sz-20">php</h4>
                                                         </div><!-- Skill Info -->
                                                     </div><!-- Skill Box -->
                                                 </div>
@@ -456,14 +499,63 @@
                                                         class="skill-box round15 overflow-hidden position-relative text-center w-100">
                                                         <div class="skill-img overflow-hidden position-relative w-100">
                                                             <img class="img-fluid w-100"
-                                                                src="resources1/skill-img1.jpg"
+                                                                src="resources1/react_logo_2.png"
                                                                 alt="Skill Image" loading="lazy">
                                                         </div>
                                                         <!-- Skill Image -->
                                                         <div
                                                             class="skill-info d-flex flex-column align-items-center w-100">
-                                                            <h3 class="mb-0 fw-normal sz-36">50%</h3>
-                                                            <h4 class="mb-0 sz-20">Python</h4>
+                                                            <h3 class="mb-0 fw-normal sz-36">100%</h3>
+                                                            <h4 class="mb-0 sz-20">React.js</h4>
+                                                        </div><!-- Skill Info -->
+                                                    </div><!-- Skill Box -->
+                                                </div><div class="col-md-4 col-sm-6 col-lg-3 wow fadeIn"
+                                                    data-wow-duration=".8s" data-wow-delay=".7s">
+                                                    <div
+                                                        class="skill-box round15 overflow-hidden position-relative text-center w-100">
+                                                        <div class="skill-img overflow-hidden position-relative w-100">
+                                                            <img class="img-fluid w-100"
+                                                                src="resources1/node.png"
+                                                                alt="Skill Image" loading="lazy">
+                                                        </div>
+                                                        <!-- Skill Image -->
+                                                        <div
+                                                            class="skill-info d-flex flex-column align-items-center w-100">
+                                                            <h3 class="mb-0 fw-normal sz-36">90%</h3>
+                                                            <h4 class="mb-0 sz-20">Node.js</h4>
+                                                        </div><!-- Skill Info -->
+                                                    </div><!-- Skill Box -->
+                                                </div><div class="col-md-4 col-sm-6 col-lg-3 wow fadeIn"
+                                                    data-wow-duration=".8s" data-wow-delay=".7s">
+                                                    <div
+                                                        class="skill-box round15 overflow-hidden position-relative text-center w-100">
+                                                        <div class="skill-img overflow-hidden position-relative w-100">
+                                                            <img class="img-fluid w-100"
+                                                                src="resources1/express.png"
+                                                                alt="Skill Image" loading="lazy">
+                                                        </div>
+                                                        <!-- Skill Image -->
+                                                        <div
+                                                            class="skill-info d-flex flex-column align-items-center w-100">
+                                                            <h3 class="mb-0 fw-normal sz-36">90%</h3>
+                                                            <h4 class="mb-0 sz-20">Express.js</h4>
+                                                        </div><!-- Skill Info -->
+                                                    </div><!-- Skill Box -->
+                                                </div>
+                                                <div class="col-md-4 col-sm-6 col-lg-3 wow fadeIn"
+                                                    data-wow-duration=".8s" data-wow-delay=".7s">
+                                                    <div
+                                                        class="skill-box round15 overflow-hidden position-relative text-center w-100">
+                                                        <div class="skill-img overflow-hidden position-relative w-100">
+                                                            <img class="img-fluid w-100"
+                                                                src="resources1/mongodb.png"
+                                                                alt="Skill Image" loading="lazy">
+                                                        </div>
+                                                        <!-- Skill Image -->
+                                                        <div
+                                                            class="skill-info d-flex flex-column align-items-center w-100">
+                                                            <h3 class="mb-0 fw-normal sz-36">100%</h3>
+                                                            <h4 class="mb-0 sz-20">MongoDB Atlas</h4>
                                                         </div><!-- Skill Info -->
                                                     </div><!-- Skill Box -->
                                                 </div>
@@ -479,24 +571,13 @@
                                                         <!-- Skill Image -->
                                                         <div
                                                             class="skill-info d-flex flex-column align-items-center w-100">
-                                                            <h3 class="mb-0 fw-normal sz-36">90%</h3>
+                                                            <h3 class="mb-0 fw-normal sz-36">100%</h3>
                                                             <h4 class="mb-0 sz-20">GitHub</h4>
                                                         </div><!-- Skill Info -->
                                                     </div><!-- Skill Box -->
                                                 </div>
                                             </div>
                                         </div><!-- Skill Boxes -->
-                                    </div>
-                                </section>
-                                <section>
-                                    <div class="position-relative pt-110 w-100">
-                                        <div class="hire-head-box position-relative w-100">
-                                            <h2 class="mb-0 sz-90 fw-bolder text-white cont-opc5 scroll-h-anime position-absolute"
-                                                data-text=" CV. Hire Me. CV. Hire Me. CV. Hire Me CV. Hire Me CV. Hire me. CV. Hire Me CV. Hire Me">
-                                                CV. Hire Me. CV. Hire Me. CV. Hire Me CV. Hire Me CV. Hire me. CV. Hire
-                                                Me
-                                                CV. Hire Me</h2>
-                                        </div><!-- Hire Head Line Box -->
                                     </div>
                                 </section>
                                 <section id="Education">
